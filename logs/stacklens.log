@@ -1,0 +1,108 @@
+2026-11-10 00:52:27,118 INFO stacklens.api.app: Sessions in memory, in this process only.
+2026-11-10 00:52:27,119 INFO stacklens.api.app: Index: 0 chunk(s) at postgresql+psycopg://stacklens:***@localhost:5432/stacklens
+2026-11-10 00:52:27,124 INFO httpx2: HTTP Request: GET http://testserver/api/v1/documents "HTTP/1.1 401 Unauthorized"
+2026-11-10 00:52:27,126 INFO httpx2: HTTP Request: POST http://testserver/api/v1/register "HTTP/1.1 403 Forbidden"
+2026-11-10 00:52:27,128 INFO httpx2: HTTP Request: GET http://testserver/status "HTTP/1.1 401 Unauthorized"
+2026-11-10 00:52:27,129 INFO httpx2: HTTP Request: GET http://testserver/api/v1/health "HTTP/1.1 200 OK"
+2026-11-10 00:52:27,129 INFO stacklens.api.app: Shutting down with 0 session(s) open.
+2026-11-10 00:52:27,132 INFO stacklens.api.app: API ready for domain: engineering documentation, API contracts, architecture and operational runbooks
+2026-11-10 00:52:27,132 INFO stacklens.api.limits: Rate limit disabled.
+2026-11-10 00:52:27,133 INFO stacklens.api.app: Sessions in memory, in this process only.
+2026-11-10 00:52:27,133 INFO stacklens.api.app: Index: 0 chunk(s) at postgresql+psycopg://stacklens:***@localhost:5432/stacklens
+2026-11-10 00:52:27,188 INFO httpx2: HTTP Request: POST http://testserver/api/v1/register "HTTP/1.1 201 Created"
+2026-11-10 00:52:27,190 INFO httpx2: HTTP Request: GET http://testserver/api/v1/me "HTTP/1.1 200 OK"
+2026-11-10 00:52:27,192 INFO httpx2: HTTP Request: POST http://testserver/api/v1/logout "HTTP/1.1 200 OK"
+2026-11-10 00:52:27,194 INFO httpx2: HTTP Request: GET http://testserver/api/v1/me "HTTP/1.1 401 Unauthorized"
+2026-11-10 00:52:27,194 INFO stacklens.api.app: Shutting down with 0 session(s) open.
+2026-11-10 00:52:27,196 INFO stacklens.api.app: API ready for domain: engineering documentation, API contracts, architecture and operational runbooks
+2026-11-10 00:52:27,196 INFO stacklens.api.limits: Rate limit disabled.
+2026-11-10 00:52:27,197 INFO stacklens.api.app: Sessions in memory, in this process only.
+2026-11-10 00:52:27,197 INFO stacklens.api.app: Index: 0 chunk(s) at postgresql+psycopg://stacklens:***@localhost:5432/stacklens
+2026-11-10 00:52:27,197 INFO stacklens.api.app: Sessions in memory, in this process only.
+2026-11-10 00:52:27,197 INFO stacklens.api.app: Index: 0 chunk(s) at postgresql+psycopg://stacklens:***@localhost:5432/stacklens
+2026-11-10 00:52:27,253 INFO httpx2: HTTP Request: POST http://testserver/api/v1/register "HTTP/1.1 201 Created"
+2026-11-10 00:52:27,306 INFO httpx2: HTTP Request: POST http://testserver/api/v1/register "HTTP/1.1 201 Created"
+2026-11-10 00:52:27,309 INFO httpx2: HTTP Request: POST http://testserver/api/v1/documents "HTTP/1.1 202 Accepted"
+2026-11-10 00:52:27,311 INFO httpx2: HTTP Request: GET http://testserver/api/v1/documents "HTTP/1.1 200 OK"
+2026-11-10 00:52:27,313 INFO httpx2: HTTP Request: GET http://testserver/api/v1/documents "HTTP/1.1 200 OK"
+2026-11-10 00:52:27,315 INFO httpx2: HTTP Request: GET http://testserver/api/v1/documents/c9eed6b72d7e49c7b40ce4b359d5c8fb "HTTP/1.1 404 Not Found"
+2026-11-10 00:52:27,317 INFO httpx2: HTTP Request: POST http://testserver/api/v1/documents/c9eed6b72d7e49c7b40ce4b359d5c8fb/retry "HTTP/1.1 404 Not Found"
+2026-11-10 00:52:27,317 INFO stacklens.api.app: Shutting down with 0 session(s) open.
+2026-11-10 00:52:27,318 INFO stacklens.api.app: Shutting down with 0 session(s) open.
+2026-11-10 00:52:27,319 INFO stacklens.api.app: API ready for domain: engineering documentation, API contracts, architecture and operational runbooks
+2026-11-10 00:52:27,320 INFO stacklens.api.limits: Rate limit disabled.
+2026-11-10 00:52:27,320 INFO stacklens.api.app: Sessions in memory, in this process only.
+2026-11-10 00:52:27,320 INFO stacklens.api.app: Index: 0 chunk(s) at postgresql+psycopg://stacklens:***@localhost:5432/stacklens
+2026-11-10 00:52:27,321 INFO stacklens.api.app: Sessions in memory, in this process only.
+2026-11-10 00:52:27,321 INFO stacklens.api.app: Index: 0 chunk(s) at postgresql+psycopg://stacklens:***@localhost:5432/stacklens
+2026-11-10 00:52:27,375 INFO httpx2: HTTP Request: POST http://testserver/api/v1/register "HTTP/1.1 201 Created"
+2026-11-10 00:52:27,425 INFO httpx2: HTTP Request: POST http://testserver/api/v1/register "HTTP/1.1 201 Created"
+2026-11-10 00:52:27,428 INFO httpx2: HTTP Request: POST http://testserver/api/v1/documents "HTTP/1.1 202 Accepted"
+2026-11-10 00:52:27,430 INFO httpx2: HTTP Request: DELETE http://testserver/api/v1/documents/92d565b6c00a459fbebd32e8d41f3285 "HTTP/1.1 404 Not Found"
+2026-11-10 00:52:27,432 INFO httpx2: HTTP Request: DELETE http://testserver/api/v1/documents/92d565b6c00a459fbebd32e8d41f3285 "HTTP/1.1 200 OK"
+2026-11-10 00:52:27,435 INFO httpx2: HTTP Request: DELETE http://testserver/api/v1/documents/92d565b6c00a459fbebd32e8d41f3285 "HTTP/1.1 200 OK"
+2026-11-10 00:52:27,435 INFO stacklens.api.app: Shutting down with 0 session(s) open.
+2026-11-10 00:52:27,436 INFO stacklens.api.app: Shutting down with 0 session(s) open.
+2026-11-10 00:52:27,437 INFO stacklens.api.app: API ready for domain: engineering documentation, API contracts, architecture and operational runbooks
+2026-11-10 00:52:27,438 INFO stacklens.api.limits: Rate limit disabled.
+2026-11-10 00:52:27,439 INFO stacklens.api.app: Sessions in memory, in this process only.
+2026-11-10 00:52:27,439 INFO stacklens.api.app: Index: 0 chunk(s) at postgresql+psycopg://stacklens:***@localhost:5432/stacklens
+2026-11-10 00:52:27,507 INFO httpx2: HTTP Request: POST http://testserver/api/v1/register "HTTP/1.1 201 Created"
+2026-11-10 00:52:27,510 INFO httpx2: HTTP Request: POST http://testserver/api/v1/documents "HTTP/1.1 202 Accepted"
+2026-11-10 00:52:27,512 INFO httpx2: HTTP Request: POST http://testserver/api/v1/documents "HTTP/1.1 202 Accepted"
+2026-11-10 00:52:27,513 INFO stacklens.api.app: Shutting down with 0 session(s) open.
+2026-11-10 00:52:27,514 INFO stacklens.api.app: API ready for domain: engineering documentation, API contracts, architecture and operational runbooks
+2026-11-10 00:52:27,515 INFO stacklens.api.limits: Rate limit disabled.
+2026-11-10 00:52:27,515 INFO stacklens.api.app: Sessions in memory, in this process only.
+2026-11-10 00:52:27,515 INFO stacklens.api.app: Index: 0 chunk(s) at postgresql+psycopg://stacklens:***@localhost:5432/stacklens
+2026-11-10 00:52:27,569 INFO httpx2: HTTP Request: POST http://testserver/api/v1/register "HTTP/1.1 201 Created"
+2026-11-10 00:52:27,572 INFO httpx2: HTTP Request: POST http://testserver/api/v1/documents "HTTP/1.1 415 Unsupported Media Type"
+2026-11-10 00:52:27,573 INFO stacklens.api.app: Shutting down with 0 session(s) open.
+2026-11-10 00:52:27,575 INFO stacklens.api.app: API ready for domain: engineering documentation, API contracts, architecture and operational runbooks
+2026-11-10 00:52:27,575 INFO stacklens.api.limits: Rate limit disabled.
+2026-11-10 00:52:27,575 INFO stacklens.api.app: Sessions in memory, in this process only.
+2026-11-10 00:52:27,576 INFO stacklens.api.app: Index: 0 chunk(s) at postgresql+psycopg://stacklens:***@localhost:5432/stacklens
+2026-11-10 00:52:27,629 INFO httpx2: HTTP Request: POST http://testserver/api/v1/register "HTTP/1.1 201 Created"
+2026-11-10 00:52:27,631 INFO httpx2: HTTP Request: POST http://testserver/api/v1/documents "HTTP/1.1 422 Unprocessable Content"
+2026-11-10 00:52:27,632 INFO stacklens.api.app: Shutting down with 0 session(s) open.
+2026-11-10 00:52:27,634 INFO stacklens.api.app: API ready for domain: engineering documentation, API contracts, architecture and operational runbooks
+2026-11-10 00:52:27,634 INFO stacklens.api.limits: Rate limit disabled.
+2026-11-10 00:52:27,635 INFO stacklens.api.app: Sessions in memory, in this process only.
+2026-11-10 00:52:27,635 INFO stacklens.api.app: Index: 0 chunk(s) at postgresql+psycopg://stacklens:***@localhost:5432/stacklens
+2026-11-10 00:52:27,690 INFO httpx2: HTTP Request: POST http://testserver/api/v1/register "HTTP/1.1 201 Created"
+2026-11-10 00:52:27,692 INFO httpx2: HTTP Request: POST http://testserver/api/v1/documents "HTTP/1.1 413 Content Too Large"
+2026-11-10 00:52:27,693 INFO stacklens.api.app: Shutting down with 0 session(s) open.
+2026-11-10 00:52:27,694 INFO stacklens.api.app: API ready for domain: engineering documentation, API contracts, architecture and operational runbooks
+2026-11-10 00:52:27,748 INFO stacklens.api.app: API ready for domain: engineering documentation, API contracts, architecture and operational runbooks
+2026-11-10 00:52:27,800 INFO stacklens.indexing.loader: Loaded 1 document(s) from /private/var/folders/0n/8_6yl66d69v9t2f65bztghp80000gn/T/pytest-of-lovekush/pytest-0/test_ingestion_collection_come0/uploads/8436eb8a2e6b431cbea6f53f844d592f/job
+2026-11-10 00:52:27,801 INFO stacklens.indexing.splitter: Split 1 document(s) into 1 chunk(s) by characters
+2026-11-10 00:52:27,803 INFO stacklens.api.app: API ready for domain: engineering documentation, API contracts, architecture and operational runbooks
+2026-11-10 00:52:27,855 INFO stacklens.api.app: API ready for domain: engineering documentation, API contracts, architecture and operational runbooks
+2026-11-10 00:52:27,855 WARNING stacklens.workspace.worker: Discarded malformed ingestion event.
+2026-11-10 00:52:27,855 WARNING stacklens.workspace.worker: Discarded malformed ingestion event.
+2026-11-10 00:52:27,856 INFO stacklens.api.app: API ready for domain: engineering documentation, API contracts, architecture and operational runbooks
+2026-11-10 00:52:27,857 INFO stacklens.api.limits: Rate limit disabled.
+2026-11-10 00:52:27,858 INFO stacklens.api.app: Sessions in memory, in this process only.
+2026-11-10 00:52:27,858 INFO stacklens.api.app: Index: 0 chunk(s) at postgresql+psycopg://stacklens:***@localhost:5432/stacklens
+2026-11-10 00:52:27,858 INFO stacklens.api.app: Sessions in memory, in this process only.
+2026-11-10 00:52:27,858 INFO stacklens.api.app: Index: 0 chunk(s) at postgresql+psycopg://stacklens:***@localhost:5432/stacklens
+2026-11-10 00:52:27,913 INFO httpx2: HTTP Request: POST http://testserver/api/v1/register "HTTP/1.1 201 Created"
+2026-11-10 00:52:27,963 INFO httpx2: HTTP Request: POST http://testserver/api/v1/register "HTTP/1.1 201 Created"
+2026-11-10 00:52:27,965 INFO httpx2: HTTP Request: POST http://testserver/api/v1/chat "HTTP/1.1 200 OK"
+2026-11-10 00:52:27,967 INFO httpx2: HTTP Request: POST http://testserver/api/v1/chat "HTTP/1.1 200 OK"
+2026-11-10 00:52:27,968 INFO stacklens.api.app: Shutting down with 0 session(s) open.
+2026-11-10 00:52:27,968 INFO stacklens.api.app: Shutting down with 0 session(s) open.
+2026-11-10 00:52:27,970 INFO stacklens.api.app: API ready for domain: engineering documentation, API contracts, architecture and operational runbooks
+2026-11-10 00:52:27,970 INFO stacklens.api.limits: Rate limit disabled.
+2026-11-10 00:52:27,970 INFO stacklens.api.app: Sessions in memory, in this process only.
+2026-11-10 00:52:27,970 INFO stacklens.api.app: Index: 0 chunk(s) at postgresql+psycopg://stacklens:***@localhost:5432/stacklens
+2026-11-10 00:52:28,025 INFO httpx2: HTTP Request: POST http://testserver/api/v1/register "HTTP/1.1 201 Created"
+2026-11-10 00:52:28,026 INFO httpx2: HTTP Request: POST http://testserver/api/v1/documents "HTTP/1.1 413 Content Too Large"
+2026-11-10 00:52:28,026 INFO stacklens.api.app: Shutting down with 0 session(s) open.
+2026-11-10 00:52:28,028 INFO stacklens.api.app: API ready for domain: engineering documentation, API contracts, architecture and operational runbooks
+2026-11-10 00:52:28,028 INFO stacklens.api.limits: Rate limit disabled.
+2026-11-10 00:52:28,029 INFO stacklens.api.app: Sessions in memory, in this process only.
+2026-11-10 00:52:28,029 INFO stacklens.api.app: Index: 0 chunk(s) at postgresql+psycopg://stacklens:***@localhost:5432/stacklens
+2026-11-10 00:52:28,029 INFO httpx2: HTTP Request: POST http://testserver/api/v1/register "HTTP/1.1 411 Length Required"
+2026-11-10 00:52:28,029 INFO stacklens.api.app: Shutting down with 0 session(s) open.
+2026-11-10 00:52:28,031 INFO stacklens.api.app: API ready for domain: engineering documentation, API contracts, architecture and operational runbooks
